@@ -1,7 +1,8 @@
 name: cron
 on:
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '0 3 * * *'
+    - cron: '0 15 * * *'
   push:
     branches:
       - master
